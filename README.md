@@ -16,8 +16,7 @@ The videos have two types of dimensions - either 360x360 or 120x160 (depending o
 
 ### Data Source : https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
 
-## Summary of Nueral Network used and Result
-
+# Summary of Nueral Network used and Result:
 | Sr.No | Model & Parameters         | Data & Training Details                                      | Result & Decision                                                                 |
 |-------|----------------------------|-------------------------------------------------------------|----------------------------------------------------------------------------------|
 | 1     | Conv3D, Params: 144,421    | Images: 18, Size: 64x64, Epochs: 5, Time: 210 sec           | Train/Val Accuracy: 42%/41% (underfitting). Decision: Increase capacity (epochs, neurons). |
